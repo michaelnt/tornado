@@ -298,7 +298,8 @@ class TornadoReactor(PosixReactorBase):
         self._io_loop.stop()
 
     def doIteration(self, delay):
-        raise NotImplementedError("doIteration")
+        #raise NotImplementedError("doIteration")
+        pass
 
     def mainLoop(self):
         # Since this class is intended to be used in applications
